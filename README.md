@@ -1,6 +1,6 @@
 ## Get dependecies
 
-### 'npm install'
+### `npm install`
 
 ## Available Scripts
 
