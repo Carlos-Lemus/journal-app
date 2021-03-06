@@ -1,4 +1,4 @@
-##Get dependecies
+## Get dependecies
 
 ### 'npm install'
 
