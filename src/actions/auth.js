@@ -2,7 +2,7 @@ import { types } from "../types/types";
 import { firebase, googleAuthProvider } from "../firebase/firebaseConfig";
 import { finishedLoading, startLoading } from "./ui";
 
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 
 export const startLoginEmailPassword = (email, password) => {
     return (dispatch) => {
