@@ -22,7 +22,7 @@ export const fileUpload = async(file) => {
             return cloudResult.secure_url;
 
         } else {
-            throw await result.json();
+            return null;
         }
 
     } catch (error) {

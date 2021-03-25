@@ -13,7 +13,11 @@ export const notesReducer = (state = initialState, action) => {
 
             return {
                 ...state,
-                notes: [action.payload, ...state.notes]
+                notes: (state.notes.find( note => note.id === action.payload.id )?
+                state.notes
+                :
+                [action.payload, ...state.notes]
+                )
             }
 
         case types.notesActive:
